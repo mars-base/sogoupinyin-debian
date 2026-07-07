@@ -6,7 +6,7 @@
 
 | 文件 | 说明 |
 |------|------|
-| `sogoupinyin_4.2.1.145_amd64.deb` | 搜狗拼音输入法安装包 |
+| `sogoupinyin_4.2.1.145_amd64.deb` | 搜狗拼音输入法安装包（从 [Release](https://github.com/mars-base/sogoupinyin-debian/releases/tag/v4.2.1.145) 下载） |
 | `sogoupinyin-fix.sh` | 系统库链接修复脚本 |
 
 ## 安装步骤
@@ -24,7 +24,9 @@ sudo apt purge fcitx5
 sudo apt install fcitx
 ```
 
-### 3. 安装搜狗拼音 deb 包
+### 3. 下载并安装搜狗拼音 deb 包
+
+从 [Release 页面](https://github.com/mars-base/sogoupinyin-debian/releases/tag/v4.2.1.145) 下载 `sogoupinyin_4.2.1.145_amd64.deb`，然后安装：
 
 ```bash
 sudo dpkg -i sogoupinyin_4.2.1.145_amd64.deb
